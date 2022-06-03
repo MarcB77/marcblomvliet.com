@@ -72,6 +72,19 @@ input, select, textarea {
 	appearance: none;
 }
 
+.box {
+	position:relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.box img {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	padding: 2px;
+	border: 2px solid white;
+}
 /* Basic */
 
 	html {
