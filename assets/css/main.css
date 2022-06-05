@@ -86,6 +86,13 @@ input, select, textarea {
 	border: 2px solid white;
 }
 
+.bolded { 
+	font-weight: bold; 
+}
+.schuin { 
+	font-style: italic; 
+}
+
 /* Basic */
 
 	@-ms-viewport {
