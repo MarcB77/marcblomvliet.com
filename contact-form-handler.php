@@ -4,7 +4,7 @@
     $message = $_POST['message'];
 
 
-    $email_from = 'marcblomvliet@hotmail.com';
+    $email_from = 'example@hotmail.com';
 
     $email_subject = "New Form";
 
@@ -13,7 +13,7 @@
                         "User Message: $message.\n";
 
 
-    $to = "mblomvliet@gmail.com";
+    $to = "example@gmail.com";
 
     $headers = "From: $email_from \r\n";
 
