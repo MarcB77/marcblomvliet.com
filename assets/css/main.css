@@ -670,7 +670,7 @@ input, select, textarea {
 		.image:before {
 			pointer-events: none;
 			background-image: url("../../images/overlay.png");
-			background-color: rgba(19, 21, 25, 0.5);
+			background-color: rgba(255, 255, 255, 0.73);
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -1391,7 +1391,7 @@ input, select, textarea {
 					}
 
 					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
+						background-color: rgba(222, 255, 255, 0.075);
 					}
 
 		#header nav.use-middle:after {
@@ -1723,7 +1723,7 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: rgba(65, 64, 64, 0.85); /*Change article background color*/
 			border-radius: 4px;
 			opacity: 0;
 		}
