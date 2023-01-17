@@ -319,6 +319,14 @@ input, select, textarea {
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
 	}
+	h5.certifications {
+		color: #ffffff;
+		font-weight: 600;
+		line-height: 1.5;
+		margin: 0 0 1rem 0;
+		text-transform: uppercase;
+		letter-spacing: 0rem;
+	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -341,8 +349,8 @@ input, select, textarea {
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
-			padding-bottom: 0.1rem;
-			margin: 0 0 0.3rem 0;
+			padding-bottom: 0.2rem;
+			margin: 0 0 0.6rem 0;
 		}
 
 	h1 {
