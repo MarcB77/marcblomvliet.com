@@ -335,6 +335,16 @@ input, select, textarea {
 			margin: 0 0 2rem 0;
 		}
 
+		h2.majorina {
+			border-bottom: solid 1px #ffffff;
+			width: -moz-max-content;
+			width: -webkit-max-content;
+			width: -ms-max-content;
+			width: max-content;
+			padding-bottom: 0.5rem;
+			margin: 0 0 0.3rem 0;
+		}
+
 	h1 {
 		font-size: 2.25rem;
 		line-height: 0;
@@ -343,7 +353,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.5rem;
-		line-height: 0.01;
+		line-height: 1.4;
 		letter-spacing: 0.2rem;
 	}
 
