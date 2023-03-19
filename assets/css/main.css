@@ -144,13 +144,23 @@ input, select, textarea {
 	left: -3px;
 	border-radius: 30px;
 }
-.content-box .timeline-content ul li h3 {
+.content-box .timeline-content ul li h3  {
 	font-size: 14px;
 	letter-spacing: 0.09rem;
-	line-height: 40px;
+	line-height: 90px;
 	border: 10px solid #348cb2;
 	border-width: 0 0 0 4px;
 	padding: 5px 0px 5px 16px;
+	margin-bottom: -20px;
+}
+.content-box .timeline-content ul li h6  {
+	font-size: 10px;
+	letter-spacing: 0.09rem;
+	line-height: 0px;
+	border: 10px solid #348cb2;
+	border-width: 0 0 0 4px;
+	padding: 0px 0px 0px 30px;
+	margin-bottom: 40px;
 }
 /* Basic */
 
@@ -390,6 +400,7 @@ input, select, textarea {
 
 	h6 {
 		font-size: 0.6rem;
+		line-height: 0.1;
 	}
 
 	@media screen and (max-width: 736px) {
