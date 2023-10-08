@@ -2050,6 +2050,17 @@ input, select, textarea {
 					height: 2.25rem;
 					background-size: 14px 14px;
 				}
+			
+				#services .service-item {	
+					margin-left: -10px;		
+					width: 109%;
+				}
+	
+				#works .work-item {
+					width: 100%;
+				  }
+			
+			
 
 		}
 
