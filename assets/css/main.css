@@ -1986,6 +1986,10 @@ input, select, textarea {
 			#services .service-item {			
 				width: 50%;
 			}
+		
+			.services .service-item {
+				width: 100%;
+			  }
 
 		}
 
