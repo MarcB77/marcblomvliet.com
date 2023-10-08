@@ -156,11 +156,12 @@ input, select, textarea {
 .content-box .timeline-content ul li h6  {
 	font-size: 10px;
 	letter-spacing: 0.09rem;
-	line-height: 0px;
+	line-height: 30px;
 	border: 10px solid #348cb2;
 	border-width: 0 0 0 4px;
 	padding: 0px 0px 0px 30px;
-	margin-bottom: 40px;
+	margin-top: -30px;
+	margin-bottom: 30px;
 }
 /* Basic */
 
@@ -321,13 +322,20 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5 {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
+	}
+	h6 {
+		color: #ffffff;
+		font-weight: 600;
+		line-height: 1.5;
+		margin: 0 0 1rem 0;
+		letter-spacing: 0.002rem;
 	}
 	h5.certifications {
 		color: #ffffff;
@@ -1438,6 +1446,7 @@ input, select, textarea {
 }
 
 
+
 /* Header */
 
 	#header {
@@ -1972,6 +1981,10 @@ input, select, textarea {
 
 			#main article {
 				padding: 3rem 1.5rem 0.5rem 1.5rem ;
+			}
+
+			#services .service-item {			
+				width: 50%;
 			}
 
 		}
